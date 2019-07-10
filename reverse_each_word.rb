@@ -7,16 +7,5 @@ def reverse_each_word(sentence)
   end
   new_array.join(" ")
 end
- # expect_any_instance_of(Array).to receive(:collect).and_call_original
-    # reverse_each_word("Verifying that collect is being called.")
-# str = "hello, my name is Abadi"
 
-# def reverse_each_word(sentence)
-# to_array = str.split(" ")
-
-#   to_array.collect do |str|
-#     "#{str.reverse.join(" "} "
-#   end
-  
-# end
   
