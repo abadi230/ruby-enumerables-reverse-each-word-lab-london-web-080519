@@ -13,5 +13,6 @@ str = w%["hello, my name is Abadi"]
 to_array = str.split(" ")
 
 to_array.collect do |str|
-  str.reverse
+  "#{str.reverse} "
+end
   
