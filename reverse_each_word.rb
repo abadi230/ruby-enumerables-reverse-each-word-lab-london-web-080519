@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
   array = sentence.split(" ")
   new_array = []
-  array.each do |e| 
+  array.collect do |e| 
     new_array.push(e.reverse)
     
   end
@@ -11,12 +11,12 @@ end
     # reverse_each_word("Verifying that collect is being called.")
 # str = "hello, my name is Abadi"
 
-def reverse_each_word(sentence)
-to_array = str.split(" ")
+# def reverse_each_word(sentence)
+# to_array = str.split(" ")
 
-  to_array.collect do |str|
-    "#{str.reverse.join(" "} "
-  end
+#   to_array.collect do |str|
+#     "#{str.reverse.join(" "} "
+#   end
   
-end
+# end
   
