@@ -14,7 +14,8 @@ str = "hello, my name is Abadi"
 def reverse_each_word(sentence)
 to_array = str.split(" ")
 
-to_array.collect do |str|
-  "#{str.reverse} "
+  to_array.collect do |str|
+    "#{str.reverse} "
+  end
 end
   
